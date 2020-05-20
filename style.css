@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+background:#f8edeb;
+font-family: 'DM Mono', monospace;
+}
+
+.contenedor{
+  width: 90%;
+  margin: 20px auto;
+  max-width: 1000px;
+  display: grid;
+  grid-gap: 30px;
+
+}
+
+label{
+  font-size: 18px;
+  weight: bold;
+  display: block;
+}
+
+.form-control{
+  display: block;
+  border-radius: 5px;
+  width: 90%;
+  background-color: #F8EDEB;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#survey-form{
+  display: grid;
+  grid-gap: 20px;
+  background:#FCD5CE;
+  border-radius: 6px;
+}
+
+#title{
+  background: #FFB5A7;
+  border-radius: 6px;
+  display: grid;
+  grid-gap: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+
+#submit{
+  display: block;
+  background: #FFB5A7;
+  border-radius: 6px;
+  padding: 5%;
+  width: 90%;
+  cursor: pointer;
+  grid-gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#comments{
+  display: block;
+  width: 90%;
+  min-height: 120px;
+  padding: 3%;
+  border-radius: 5px;
+  background-color: #F8EDEB;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (min-width:576px){
+  .contenedor{
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px){
+  .contenedor{
+    max-width: 720px;
+  }
+}
